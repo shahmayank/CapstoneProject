@@ -8,16 +8,16 @@ pipeline {
 		}
 		stage('Build Docker image') {
 			steps {
-				sh 'sudo docker build -t my-app .'
+				sh 'docker build -t my-app .'
 			}
 		}
 		stage('Push image') {
 			steps {
 				withAWS(region:'us-west-2',credentials:'CapstoneCredential') {
 					sh 'aws ecr get-login-password --region us-west-2 | docker login --username AWS --password-stdin 430721128257.dkr.ecr.us-west-2.amazonaws.com'  
-					sh 'sudo docker build -t mayank/my-app .'
-					sh 'sudo docker tag mayank/my-app:latest 430721128257.dkr.ecr.us-west-2.amazonaws.com/mayank/my-app:latest'
-					sh 'sudo docker push 430721128257.dkr.ecr.us-west-2.amazonaws.com/mayank/my-app:latest'
+					sh 'docker build -t mayank/my-app .'
+					sh 'docker tag mayank/my-app:latest 430721128257.dkr.ecr.us-west-2.amazonaws.com/mayank/my-app:latest'
+					sh 'docker push 430721128257.dkr.ecr.us-west-2.amazonaws.com/mayank/my-app:latest'
 				}
 			}
 		}
