@@ -26,8 +26,6 @@ sudo apt-get update
 sudo apt install -y default-jdk
 
 3. Download Jenkins package -> 
-# You can go to http://pkg.jenkins.io/debian/ to see the available commands
-# First, add a key to your system
 wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
 
 4. Add the following entry in your /etc/apt/sources.list ->
