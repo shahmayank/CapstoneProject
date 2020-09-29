@@ -55,7 +55,7 @@ Git Pipeline for Blue Ocean,
 GitHub Pipeline for Blue Ocean,
 Pipeline implementation for Blue Ocean,
 Pipeline: AWS Steps,
-aws codepipeline ,
+aws codepipeline,
 cloudbees aws credentials 
 
 
