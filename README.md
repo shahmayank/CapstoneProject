@@ -2,7 +2,7 @@
 
 Here, I am doing a ROLLING DEPLOYMENT, where I am deploying the HTML App (index.html) to an EKS cluster using Docker Image deployment. Here, I am sharing complete steps to follow the same.
 
-GitHub Repository Link ->
+GitHub Repository Link -> https://github.com/shahmayank/CapstoneProject
 
 GiHube Repository Details:
 --------------------------
