@@ -45,17 +45,17 @@ sudo systemctl enable jenkins
 sudo systemctl status jenkins
 
 9. Jenkins plugins needed for pipelining -> 
-Blue Ocean
-Blue Ocean Executor Info
-Blue Ocean Pipeline Editor
-Config API for Blue Ocean
-Display URL for Blue Ocean
-Events API for Blue Ocean
-Git Pipeline for Blue Ocean
-GitHub Pipeline for Blue Ocean
-Pipeline implementation for Blue Ocean
-Pipeline: AWS Steps
-aws codepipeline 
+Blue Ocean,
+Blue Ocean Executor Info,
+Blue Ocean Pipeline Editor,
+Config API for Blue Ocean,
+Display URL for Blue Ocean,
+Events API for Blue Ocean,
+Git Pipeline for Blue Ocean,
+GitHub Pipeline for Blue Ocean,
+Pipeline implementation for Blue Ocean,
+Pipeline: AWS Steps,
+aws codepipeline ,
 cloudbees aws credentials 
 
 
